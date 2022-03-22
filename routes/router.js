@@ -8,7 +8,8 @@ router.get('', (req, res) => {
 })
 
 router.get('/schilderijen', (req, res) => {
-    fetchJson('https://www.rijksmuseum.nl/api/nl/collection?key=S0VK6DCj&q=rembrandt')
+    const query = req.query.query
+    fetchJson(`https://www.rijksmuseum.nl/api/nl/collection?key=S0VK6DCj&q=${query}`)
     .then(function (jsonData) {
     res.render('result', {
       data: jsonData,
