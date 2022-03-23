@@ -106,11 +106,11 @@ main label::before {
 ul {
 	list-style-type: none;
 	display: grid;
-	padding: 8rem 0 5rem 0;
+	padding: 8em 0 5em 0;
 	grid-template-columns: 1fr;
 	justify-items: center;
 	align-items: center;
-	gap: 10rem;
+	gap: 10em;
 	text-align: center;
 }
 ul li button {
@@ -118,9 +118,12 @@ ul li button {
 	transition: 2s;
 }
 ul li p {
-	margin-top: 1rem;
+	margin-top: 1.2em;
 	font-style: italic;
 	transition: 1s;
+	max-width: fit-content;
+	text-align: left;
+	line-height: 1.6em;
 }
 ul li img {
 	max-width: 80vw;
