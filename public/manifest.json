@@ -1,0 +1,17 @@
+{
+    "name": "Art @ Home progressive web app",
+    "short_name": "Art@Home",
+    "description": "Een progressive web app om schilderijen uit het Rijksmuseum te bekijken",
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "display": "standalone",
+    "orientation": "landscape",
+    "start_url": "/?homescreen=true",
+    "icons": [
+        {
+            "src": "/images/icon.png",
+            "sizes": "468x370",
+            "type": "image/png"
+        }
+    ]
+}
