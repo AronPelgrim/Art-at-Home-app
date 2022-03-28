@@ -4,11 +4,10 @@
     <body>
         <%- include('../partials/header') %>
         <main>
-            <%- include('../partials/form') %>
-            <h1 class="visible"><%- data[1].principalOrFirstMaker %></h1>
             <ul class="">
                 <% data.forEach(function(paintings) { %>
-                    <li>
+                    <li class="detail">
+                        <a href="/" class="button">X</a>
                         <a href="schilderijen/<%- paintings.objectNumber %>"><img src=<%- paintings.webImage.url.slice(0, -3)+"=s1000" %>></a>
                         <p><%- paintings.longTitle %></p>
                     </li>

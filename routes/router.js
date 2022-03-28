@@ -17,6 +17,16 @@ router.get('/schilderijen', (req, res) => {
   })
 })
 
+router.get('/schilderijen/:id', (req, res) => {
+    const queryId = req.params.id
+    fetchJson(`https://www.rijksmuseum.nl/api/nl/collection?key=S0VK6DCj&q=${queryId}`)
+    .then(function (jsonData) {
+    res.render('details', {
+      data: jsonData,
+    })
+  })
+})  
+
 router.use((req, res) => {
     res.status(404).send('Sorry, deze pagina bestaat niet')
 })
