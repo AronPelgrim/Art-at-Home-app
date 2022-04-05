@@ -4,7 +4,7 @@ const CORE_ASSETS = [
     '/images/icon.png',
     '/css/mainStyles.css',
     '/manifest.json',
-    '/offline.html'
+    '/offline'
 ]
 
 self.addEventListener('install', event => {

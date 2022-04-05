@@ -28,6 +28,11 @@ router.get('/schilderijen/:id', (req, res) => {
   })
 })  
 
+router.get('/offline', (req, res) => {
+  res.render('offline', {
+  })
+})  
+
 router.use((req, res) => {
     res.status(404).send('Sorry, deze pagina bestaat niet')
 })
