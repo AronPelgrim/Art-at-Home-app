@@ -48,7 +48,7 @@ $ npm install
  ``` 
 $ npm start 
  ```
-Check it out! the server runs on localhost:3000.
+Check it out! The server runs on localhost:3000.
 
 ## Any issues?
 You can create an issue in this repository to let me know what's wrong.
