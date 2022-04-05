@@ -1,6 +1,5 @@
 # Art @ Home
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ab747616-0139-4a7f-baad-40e60b5653ea/deploy-status)](https://app.netlify.com/sites/pwa-aron/deploys)
 
 Welcome to this repository. Here you can find my art app called **Art @ Home**. The concept is that the user can view art from the Rijksmuseum on their device. The user can look for their favourite artist and then the app will load in 5 paintings of that artist. If you click on the image, the user will arrive on the detail page, where they can view their favourite piece of art.
 
