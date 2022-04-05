@@ -4,6 +4,7 @@ const port = process.env.PORT || 4000
 const ejs = require('ejs')
 const router = require('./routes/router')
 const compression = require('compression')
+require('dotenv').config()
 
 app.set('view engine', 'ejs')
 

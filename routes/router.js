@@ -8,7 +8,7 @@ router.get('', (req, res) => {
 
 router.get('/schilderijen', (req, res) => {
     const querySearch = req.query.search
-    fetchJson(`https://www.rijksmuseum.nl/api/nl/collection?key=S0VK6DCj&q=${querySearch}`)
+    fetchJson(`https://www.rijksmuseum.nl/api/nl/collection?key=${process.env.API_KEY}&q=${querySearch}`)
     .then(function (jsonData) {
     res.render('result', {
       title: querySearch,
@@ -19,7 +19,7 @@ router.get('/schilderijen', (req, res) => {
 
 router.get('/schilderijen/:id', (req, res) => {
     const queryId = req.params.id
-    fetchJson(`https://www.rijksmuseum.nl/api/nl/collection?key=S0VK6DCj&q=${queryId}`)
+    fetchJson(`https://www.rijksmuseum.nl/api/nl/collection?key=${process.env.API_KEY}&q=${queryId}`)
     .then(function (jsonData) {
     res.render('details', {
       data: jsonData,
