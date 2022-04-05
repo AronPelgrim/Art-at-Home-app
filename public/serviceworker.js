@@ -26,7 +26,7 @@ self.addEventListener('fetch', function(event) {
         })
         .catch(function(err) {
             console.log('ServiceWorker registration failed: ', err)
-            return caches.match('/offline.html')
+            return caches.match('/offline')
         })
     )
 })
