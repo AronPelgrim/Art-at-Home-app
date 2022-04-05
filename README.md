@@ -4,7 +4,7 @@
 Welcome to this repository. Here you can find my art app called **Art @ Home**. The concept is that the user can view art from the Rijksmuseum on their device. The user can look for their favourite artist and then the app will load in 5 paintings of that artist. If you click on the image, the user will arrive on the detail page, where they can view their favourite piece of art.
 
 Follow this link to check out the full app!
-[Art @ Home app](https://pwa-aron.netlify.app/)
+[Art @ Home app](https://pwa-aron.herokuapp.com/)
 
 ## Table of Contents
 
