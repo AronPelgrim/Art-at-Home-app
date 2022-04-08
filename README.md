@@ -25,8 +25,6 @@ For this project, I'm using the Rijksdata API. To start using the data, you need
 ## Activity diagram
 <img width="600" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/162426048-261e4b46-3365-4343-9235-e62391c510bb.jpg">
 
-## Process
-
 ## How to install
 ### Clone this repo
 ```
