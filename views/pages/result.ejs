@@ -9,7 +9,10 @@
             <ul class="">
                 <% data.forEach(function(paintings) { %>
                     <li>
-                        <a href="schilderijen/<%- paintings.objectNumber %>"><img src=<%- paintings.webImage.url.slice(0, -3)+"=s1000" %>></a>
+                        <a href="schilderijen/<%- paintings.objectNumber %>">
+                        <% if (paintings.webImage) { %>
+                            <img src="<%- paintings.webImage.url.slice(0, -3)+"=s1000" %>"></a>
+                        <% } %>
                         <p><%- paintings.longTitle %></p>
                     </li>
                 <% }) %>  

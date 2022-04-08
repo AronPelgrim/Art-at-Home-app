@@ -47,6 +47,13 @@ $ npm start
  ```
 Check it out! The server runs on localhost:3000.
 
+## To do lijst
+- [ ] Een goede error pagina.
+- [ ] Meer doen met de serviceworker.
+- [ ] Goede vergelijking met de WAFS app, qua snelheid.
+- [ ] Beter maken Critical Rendering Path.
+
+
 ## Any issues?
 You can create an issue in this repository to let me know what's wrong.
 
