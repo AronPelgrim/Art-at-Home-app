@@ -14,7 +14,7 @@ router.get('/schilderijen', (req, res) => {
       title: querySearch,
       data: jsonData,
     })
-  })
+  }) 
 })
 
 router.get('/schilderijen/:id', (req, res) => {
