@@ -8,8 +8,8 @@
 -   [Server side rendering](#server-side-rendering)
 -   [User story](#user-story)
 -   [Activity diagram](#activity-diagram)
--   [API](#api)
 -   [Critical render path](#critical-render-path)
+-   [API](#api)
 -   [How to install](#how-to-install)
 -   [Wishlist](#wishlist)
 -   [Any issues?](#any-issues)
@@ -36,10 +36,10 @@ I'm using server side rendering for this project. Server side rendering is the a
 ### Client
 <img width="100%" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/162426048-261e4b46-3365-4343-9235-e62391c510bb.jpg">
 
+## Critical render path
+
 ## API
 For this project, I'm using the Rijksdata API. To start using the data, you need to obtain an API key by registering for a [Rijksstudio account](https://www.rijksmuseum.nl/nl/registreer?redirectUrl=https://www.rijksmuseum.nl). You will be given a key instantly upon request, which you can find at the advanced settings of your Rijksstudio account. Some of the data elements that you can use from the API are the ```webImage``` to obtain the image, ```title``` for a short description, ```longTitle``` for a long description, ```principalOrFirstMaker``` for the name of the artist and ```id```, for the id of the painting.    
-
-## Critical render path
 
 ## How to install
 ### Clone this repo
