@@ -29,6 +29,11 @@ I'm using server side rendering for this project. Server side rendering is the a
 >As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown. Despite of slow internet connection at home, I still want to be able to look at the paintings without waiting too long.
 
 ## Activity diagram
+### Server
+
+### Sevice worker
+
+### Client
 <img width="100%" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/162426048-261e4b46-3365-4343-9235-e62391c510bb.jpg">
 
 ## API
