@@ -12,6 +12,18 @@ app.set('views', './views/pages')
 
 app.use(express.static('public'))
 
+let setCache = function (req, res, next) {
+  const period = 60 * 5 
+
+  if (req.method == 'GET') {
+    res.set('Cache-control', `public, max-age=${period}`)
+  } else {
+    res.set('Cache-control', `no-store`)
+  }
+  next()
+}
+app.use(setCache)
+
 app.use(router)
 
 app.use(compression())
