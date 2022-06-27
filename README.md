@@ -4,9 +4,8 @@
 ## Table of Contents
 
 -   [About](#about)
--   [feautures](#feautures)
 -   [Live demo](#live-demo)
--   [Server side rendering](#server-side-rendering)
+-   [Serverside rendering](#serverside-rendering)
 -   [User story](#user-story)
 -   [Activity diagram](#activity-diagram)
 -   [API](#api)
@@ -19,13 +18,12 @@
 ## About
 Welcome to this repository. Here you can find my art app called **Art @ Home**. The concept is that the user can view art from the Rijksmuseum on their device. The user can look for their favourite artist and then the app will load in 5 paintings of that artist. If you click on the image, the user will arrive on the detail page, where they can view their favourite piece of art.
 
-## Feautures
-
 ## Live demo
 Follow this link to check out the full app!
 [Art @ Home app](https://pwa-aron.herokuapp.com/)
 
-## Server side rendering
+## Serverside rendering
+Voor dit project gebruik ik serverside rendering. Serverside rendering is het vermogen van een applicatie om dynamische HTML-bestanden op de server om te zetten in een volledig gerenderde HTML-pagina voor de client. Doordat ik serverside rendering gebruik, zorg ik ervoor dat pagina's sneller kunnen worden geladen, wat de gebruikerservaring verbetert. Ook helpt dit bij het efficiënt laden van webpagina's voor gebruikers met een trage internetverbinding of verouderde apparaten. Ook is serverside rendering goed voor de SEO. Belangrijke content elementen kunnen namelijk direct worden aangeboden zonder dat de pagina's eerst moeten renderen.
 
 ## User story
 
