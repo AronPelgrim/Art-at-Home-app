@@ -5,7 +5,7 @@
 
 -   [About](#about)
 -   [Live demo](#live-demo)
--   [Serverside rendering](#serverside-rendering)
+-   [Server side rendering](#server-side-rendering)
 -   [User story](#user-story)
 -   [Activity diagram](#activity-diagram)
 -   [API](#api)
@@ -22,10 +22,11 @@ Welcome to this repository. Here you can find my art app called **Art @ Home**. 
 Follow this link to check out the full app!
 [Art @ Home app](https://pwa-aron.herokuapp.com/)
 
-## Serverside rendering
-Voor dit project gebruik ik serverside rendering. Serverside rendering is het vermogen van een applicatie om dynamische HTML-bestanden op de server om te zetten in een volledig gerenderde HTML-pagina voor de client. Doordat ik serverside rendering gebruik, zorg ik ervoor dat pagina's sneller kunnen worden geladen, wat de gebruikerservaring verbetert. Ook helpt dit bij het efficiënt laden van webpagina's voor gebruikers met een trage internetverbinding of verouderde apparaten. Ook is serverside rendering goed voor de SEO. Belangrijke content elementen kunnen namelijk direct worden aangeboden zonder dat de pagina's eerst moeten renderen.
+## Server side rendering
+I'm using server side rendering for this project. Server side rendering is the ability of an application to convert dynamic HTML files on the server into a fully rendered HTML page for the client. Because of server side rendering, the pages load faster, which improves the user experience. It also helps in efficiently loadinging web pages for users with slow connections to outdated devices. Also, server side rendering is good for SEO. Important content elements can be inspected directly without the pages having to render first.
 
 ## User story
+>As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown. Despite of slow internet connection at home, I still want to be able to look at the paintings without waiting too long.
 
 ## Activity diagram
 <img width="600" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/162426048-261e4b46-3365-4343-9235-e62391c510bb.jpg">
