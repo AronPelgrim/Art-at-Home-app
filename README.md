@@ -39,6 +39,9 @@ I'm using server side rendering for this project. Server side rendering is the a
 ## Critical render path
 ### Font-display: swap
 Dit gebruik ik zodat de browser wordt geïnstrueerd om het fallback-lettertype te gebruiken om de tekst weer te geven totdat het aangepaste lettertype volledig is gedownload.
+```css
+font-display: swap;
+```
 
 ### Compression
 Compression wordt gebruikt om alle files in grootte te verminderen. 
