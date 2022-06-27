@@ -51,6 +51,23 @@ const compression = require('compression')
 app.use(compression())
 ```
 
+### Caching headers
+Dit kan worden gebruikt om te bepalen hoe caching kan optreden. Dit zorgt ervoor dat de request aan de server niet elke keer gedaan hoeft te worden.
+
+```javascript
+let setCache = function (req, res, next) {
+  const period = 60 * 5 
+
+  if (req.method == 'GET') {
+    res.set('Cache-control', `public, max-age=${period}`)
+  } else {
+    res.set('Cache-control', `no-store`)
+  }
+  next()
+}
+app.use(setCache)
+```
+
 ## API
 For this project, I'm using the Rijksdata API. To start using the data, you need to obtain an API key by registering for a [Rijksstudio account](https://www.rijksmuseum.nl/nl/registreer?redirectUrl=https://www.rijksmuseum.nl). You will be given a key instantly upon request, which you can find at the advanced settings of your Rijksstudio account. Some of the data elements that you can use from the API are the ```webImage``` to obtain the image, ```title``` for a short description, ```longTitle``` for a long description, ```principalOrFirstMaker``` for the name of the artist and ```id```, for the id of the painting.    
 
