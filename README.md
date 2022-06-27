@@ -1,26 +1,29 @@
 # Art @ Home
 <img width="100%" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/157249410-7e098815-1f1e-48b4-8a09-6ca8c40cb6d5.png">
 
-Welcome to this repository. Here you can find my art app called **Art @ Home**. The concept is that the user can view art from the Rijksmuseum on their device. The user can look for their favourite artist and then the app will load in 5 paintings of that artist. If you click on the image, the user will arrive on the detail page, where they can view their favourite piece of art.
-
-Follow this link to check out the full app!
-[Art @ Home app](https://pwa-aron.herokuapp.com/)
-
 ## Table of Contents
 
--   [API](#api)
--   [A preview](#a-preview)
+-   [About](#about)
+-   [feautures](#feautures)
+-   [Live demo](#live-demo)
+-   [Server side rendering](#server-side-rendering)
+-   [User story](#user-story)
 -   [Activity diagram](#activity-diagram)
--   [Process](#process)
+-   [API](#api)
+-   [Critical render path](#critical-render-path)
 -   [How to install](#how-to-install)
+-   [Wishlist](#wishlist)
 -   [Any issues?](#any-issues)
 -   [License](#license)
 
 ## About
+Welcome to this repository. Here you can find my art app called **Art @ Home**. The concept is that the user can view art from the Rijksmuseum on their device. The user can look for their favourite artist and then the app will load in 5 paintings of that artist. If you click on the image, the user will arrive on the detail page, where they can view their favourite piece of art.
 
 ## Feautures
 
 ## Live demo
+Follow this link to check out the full app!
+[Art @ Home app](https://pwa-aron.herokuapp.com/)
 
 ## Server side rendering
 
