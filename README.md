@@ -30,11 +30,10 @@ I'm using server side rendering for this project. Server side rendering is the a
 
 ## Activity diagram
 ### Server
+<img width="100%" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/176659341-8b58a4a4-2379-4c30-9235-032bbca1b70d.png">
+
 
 ### Sevice worker
-
-### Client
-<img width="100%" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/162426048-261e4b46-3365-4343-9235-e62391c510bb.jpg">
 
 ## Critical render path
 ### Font-display: swap
