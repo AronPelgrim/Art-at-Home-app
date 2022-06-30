@@ -32,8 +32,8 @@ I'm using server side rendering for this project. Server side rendering is the a
 ### Server
 <img width="100%" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/176659341-8b58a4a4-2379-4c30-9235-032bbca1b70d.png">
 
-
-### Sevice worker
+### Service worker
+<img width="100%" alt="Schermafbeelding 2022-03-08 144013" src="https://user-images.githubusercontent.com/74137185/176688443-7fdefc1e-0440-4e5e-8c54-70d722265503.png">
 
 ## Critical render path
 ### Font-display: swap
