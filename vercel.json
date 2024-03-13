@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "target": "node",
   "build": "npm run build",
   "routes": [
     {
